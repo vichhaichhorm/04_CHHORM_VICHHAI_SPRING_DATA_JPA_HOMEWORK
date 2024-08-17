@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: homework-jpa-product
+  #Postgres
+  datasource:
+    url: jdbc:postgresql://localhost:5432/products_db_homework
+    username: postgres
+    password: 2003
+  #JPA
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    properties:
+      hibernate:
+        format_sql: true
